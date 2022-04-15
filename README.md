@@ -1,1 +1,1 @@
-# doxygen
+# Documentation for blind navigation system
