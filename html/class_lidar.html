@@ -20,7 +20,6 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
-  <td id="projectlogo"><img alt="Logo" src="smart_glove_3.jpg"/></td>
   <td id="projectalign">
    <div id="projectname">Blind Navigation System
    </div>
@@ -98,12 +97,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a9161e2b410937b0ac0f8ac94207b0841"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#a9161e2b410937b0ac0f8ac94207b0841">LidarData</a> [<a class="el" href="class_lidar.html#af5288da29da1147d5e55929bb3629863">nDistance</a>]</td></tr>
+<tr class="memitem:a9161e2b410937b0ac0f8ac94207b0841"><td class="memItemLeft" align="right" valign="top"><a id="a9161e2b410937b0ac0f8ac94207b0841" name="a9161e2b410937b0ac0f8ac94207b0841"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>LidarData</b> [nDistance]</td></tr>
 <tr class="separator:a9161e2b410937b0ac0f8ac94207b0841"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af5288da29da1147d5e55929bb3629863"><td class="memItemLeft" align="right" valign="top">static const unsigned&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_lidar.html#af5288da29da1147d5e55929bb3629863">nDistance</a> = 91</td></tr>
+<tr class="memitem:af5288da29da1147d5e55929bb3629863"><td class="memItemLeft" align="right" valign="top"><a id="af5288da29da1147d5e55929bb3629863" name="af5288da29da1147d5e55929bb3629863"></a>
+static const unsigned&#160;</td><td class="memItemRight" valign="bottom"><b>nDistance</b> = 91</td></tr>
 <tr class="separator:af5288da29da1147d5e55929bb3629863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -112,8 +113,6 @@ Static Public Attributes</h2></td></tr>
 DESCRIPTION</h1>
 <p >This class represents the LiDAR sensor.</p>
 <p >This class manages TFMini LiDAR sensor and couples the microcontroller such that the executable only needs. to implement the data interface callback method. It runs a thread and uses UART for serial communication. </p>
-
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00029">29</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a797124f0d4754ab225e967883db1a143" name="a797124f0d4754ab225e967883db1a143"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a797124f0d4754ab225e967883db1a143">&#9670;&nbsp;</a></span>Lidar()</h2>
@@ -146,8 +145,6 @@ DESCRIPTION</h1>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00044">44</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
-
 </div>
 </div>
 <a id="a5291a8b7d5ab603bf3b4b67d7287fa67" name="a5291a8b7d5ab603bf3b4b67d7287fa67"></a>
@@ -173,8 +170,6 @@ DESCRIPTION</h1>
 </table>
 </div><div class="memdoc">
 <p >Destructor to call <a class="el" href="class_lidar.html#a7b173e6223584c9686fd488c851b86bd">stop()</a> method and terminate gpio </p>
-
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00067">67</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
 
 </div>
 </div>
@@ -204,8 +199,6 @@ DESCRIPTION</h1>
 </div><div class="memdoc">
 <p >Register the callback interface here to receive data. </p>
 
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00083">83</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
-
 </div>
 </div>
 <a id="a487bd4ba93f19a2f7ab971e43108ec9c" name="a487bd4ba93f19a2f7ab971e43108ec9c"></a>
@@ -231,8 +224,6 @@ DESCRIPTION</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_lidar_8cpp_source.html#l00005">5</a> of file <a class="el" href="_lidar_8cpp_source.html">Lidar.cpp</a>.</p>
-
 </div>
 </div>
 <a id="a7b173e6223584c9686fd488c851b86bd" name="a7b173e6223584c9686fd488c851b86bd"></a>
@@ -252,54 +243,11 @@ DESCRIPTION</h1>
 <p >This is a method join the <a class="el" href="class_lidar.html" title="The LiDAR class is a low-level driver for obtaining distance values needed for the functioning of the...">Lidar</a> thread, close serial port, and terminate gpio.</p>
 <dl class="section return"><dt>Returns</dt><dd>void </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_lidar_8cpp_source.html#l00079">79</a> of file <a class="el" href="_lidar_8cpp_source.html">Lidar.cpp</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9161e2b410937b0ac0f8ac94207b0841" name="a9161e2b410937b0ac0f8ac94207b0841"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9161e2b410937b0ac0f8ac94207b0841">&#9670;&nbsp;</a></span>LidarData</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int Lidar::LidarData[<a class="el" href="class_lidar.html#af5288da29da1147d5e55929bb3629863">nDistance</a>]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00037">37</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
-
-</div>
-</div>
-<a id="af5288da29da1147d5e55929bb3629863" name="af5288da29da1147d5e55929bb3629863"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5288da29da1147d5e55929bb3629863">&#9670;&nbsp;</a></span>nDistance</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const unsigned Lidar::nDistance = 91</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="lidar_8h_source.html#l00034">34</a> of file <a class="el" href="lidar_8h_source.html">lidar.h</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>C:/Users/HP/dev/blind-nav-system/<a class="el" href="lidar_8h_source.html">lidar.h</a></li>
-<li>C:/Users/HP/dev/blind-nav-system/<a class="el" href="_lidar_8cpp_source.html">Lidar.cpp</a></li>
+<li>C:/Users/HP/dev/blind-nav-system/Lidar.cpp</li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->
