@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['sendpwm_0',['sendPwm',['../class_pwm.html#a4c1b982a451cb60430a3a97facd86f0a',1,'Pwm']]],
-  ['servo_1',['Servo',['../class_servo.html',1,'Servo'],['../class_servo.html#a70b2b17657cf258cdcb57503bcf62cd2',1,'Servo::Servo()']]],
-  ['start_2',['start',['../class_lidar.html#a487bd4ba93f19a2f7ab971e43108ec9c',1,'Lidar']]],
-  ['stop_3',['stop',['../class_lidar.html#a7b173e6223584c9686fd488c851b86bd',1,'Lidar']]]
+  ['readme_2emd_0',['README.md',['../_r_e_a_d_m_e_8md.html',1,'']]],
+  ['registerinterface_1',['registerInterface',['../class_lidar.html#a1ca75a43bddc5c1f5d315bd611debbf0',1,'Lidar']]]
 ];
